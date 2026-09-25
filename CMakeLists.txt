@@ -10,7 +10,7 @@ include(FetchContent)
 FetchContent_Declare(
         safetyhook
         GIT_REPOSITORY "https://github.com/cursey/safetyhook.git"
-        GIT_TAG "origin/main"
+        GIT_TAG "b046e123dc69821f2c375161e0adef3c6d9c9db4"
 )
 FetchContent_MakeAvailable(safetyhook)
 
@@ -19,7 +19,7 @@ FetchContent_MakeAvailable(safetyhook)
 FetchContent_Declare(
         openxr
         GIT_REPOSITORY "https://github.com/KhronosGroup/OpenXR-SDK"
-        GIT_TAG "origin/main"
+        GIT_TAG "b7ada0bdecd9830f27c2221dad6f0bb933c64f15"
 )
 FetchContent_MakeAvailable(openxr)
 
